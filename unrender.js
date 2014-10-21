@@ -15,6 +15,8 @@
     };
 
     Unrender.prototype.get = function(selector) {
+        selector = selector || "body";
+
         var query = document.querySelectorAll(selector +" [data-"+ this.name +"]"),
 
             i = 0,
@@ -33,7 +35,6 @@
 
         return model;
     };
-
 
     Unrender.prototype.put = function(model, key, value) {
         var keys = key.split(".");
