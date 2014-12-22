@@ -1,0 +1,23 @@
+{
+  "name": "Unrender.js",
+  "version": "0.0.1",
+  "description": "The last mile of isomorphic javascript.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.9.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:jostw/Unrender.js"
+  },
+  "keywords": [
+    "isomorphic"
+  ],
+  "author": "jos",
+  "license": "MIT"
+}
