@@ -1,0 +1,23 @@
+{
+  "name": "Unrender.js",
+  "main": "app.js",
+  "version": "0.0.1",
+  "authors": [
+    "jos <mail@jos.tw>"
+  ],
+  "description": "The last mile of isomorphic javascript.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "isomorphic"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
